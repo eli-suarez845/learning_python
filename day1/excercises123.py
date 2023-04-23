@@ -13,5 +13,5 @@
 # 3
 
 
-variable_list = ["hola", "debo colgar ropa", "quiero comer pasta", "tengo sed", "no tengo sed"]
+variable_list = ["hola", "debo colgar ropa", "quiero comer pasta", "tengo sed"]
 print(variable_list)
