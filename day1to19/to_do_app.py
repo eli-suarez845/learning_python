@@ -22,7 +22,15 @@
 # AttributeError: 'str' object has no attribute 'append'
 # It doesn´t make sense to append something to a string! It makes sense to append something to a list, like todos = []
 
-def get_todos(filepath="todos.txt"):  # green is default parameter
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+print("It is", now)
+
+FILEPATH = "files/todos.txt"
+
+
+def get_todos(filepath=FILEPATH):  # green is default parameter
     """ Read a text ffile and return the list
     of to_do items.
     """  # this is a doc-string

@@ -1,0 +1,12 @@
+[{"question_text": "What are dolphins?",
+  "alternatives": ["Amphibians", "Fish", "Mammals", "Birds"],
+  "correct_answer": 3}]
+
+# For more complex data structures, you can use JSON data with list and dictionaries
+# This data can be interpreted by Py using JSON module (import json)
+# So JSON module gets the data from this file as simple text
+# and it converts into proper data structure.
+# That in this case is a list.
+
+# Data type is automatically assigned depending on the first brackets,
+# wich could be square brackets or curly brackets.
