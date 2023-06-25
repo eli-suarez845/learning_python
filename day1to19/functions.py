@@ -1,4 +1,4 @@
-FILEPATH = "files/todos.txt"  # it´s a convention that says XXX is a constant
+FILEPATH = "Bonus/files/todos.txt"  # it´s a convention that says XXX is a constant
 
 
 def get_todos(filepath=FILEPATH):  # green is default parameter

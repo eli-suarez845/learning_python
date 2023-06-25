@@ -2,7 +2,7 @@ import shutil  # shell utilities
 
 # can copy files, create zip files, extract files from zip files, etc
 
-shutil.make_archive("output", "zip", "../files")
+shutil.make_archive("output", "zip", "../Bonus/files")
 
 # output is name of file
 # zip si file type
