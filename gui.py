@@ -1,19 +1,25 @@
-import PySimpleGUI
-
 import functions
 import PySimpleGUI as sg
 import time
+import os
 
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass  # syntax requires to have something written there
+# this wat todos.txt file is created, for the 1st use
+
+# # (image_source="add.png")
 sg.theme("DarkPurple1")
 
 clock = sg.Text("", key="clock")
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter to-do", key="todo")
-add_button = sg.Button("Add")
+add_button = sg.Button(size=2, image_source="add.png",
+                       tooltip="Add to do", key="Add")
 list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[25, 10])  # (int, int) 25 characters,10 lines
 edit_button = sg.Button("Edit")
-complete_button = sg.Button("Complete")
+complete_button = sg.Button(size=4, image_source="complete.png", key="Complete", tooltip="Complete")
 exit_button = sg.Button("Exit")
 
 window = sg.Window('My To-Do App',
@@ -55,7 +61,7 @@ while True:
                 todos = functions.get_todos()
                 todos.remove(todo_to_complete)
                 functions.write_todos(todos)
-                window["todos"].update(value=values["todos"][0])  # this update list box
+                window["todos"].update(values=todos)  # this update list box
                 window["todo"].update(value="")
             except IndexError:
                 sg.popup("Please select an item first.", font=("Helvetica", 12))
@@ -67,3 +73,9 @@ while True:
             break
 
 window.close()
+
+# If buttons aren't aligned it's because there have the same length.
+# So we can use Columns:
+#   col1 = sg.Column([[label1], [label2]])
+#   col2 = sg.Column([[input1], [input2]])
+#   col3 = sg.Column([[choose_button1], [choose_button2]])
