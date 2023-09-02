@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e416b2b-0a30-4042-b031-c3f38649a2ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../day1to19/web_todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1to19/Bonus/files/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../day1to19/web_app_todos/todos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1to19/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1to19/complete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../to_do_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../to_do_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Sl8GVyv6EkXCUq4VF7pW2Ut18n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TODOapp/venv" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e416b2b-0a30-4042-b031-c3f38649a2ee" name="Changes" comment="" />
+      <created>1689709711878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689709711878</updated>
+    </task>
+    <servers />
+  </component>
+</project>

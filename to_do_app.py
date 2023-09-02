@@ -23,7 +23,7 @@
 # It doesn´t make sense to append something to a string! It makes sense to append something to a list, like todos = []
 
 # from functions import get_todos, write_todos  # this work when functions and main app are in the same directory
-import functions  # this is a module
+from learning_python.day1to19 import functions
 
 import time
 now = time.strftime("%b %d, %Y %H:%M:%S")

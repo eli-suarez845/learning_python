@@ -1,4 +1,4 @@
-FILEPATH = "day1to19/Bonus/files/todos.txt"  # it´s a convention that says XXX is a constant
+FILEPATH = "Python Mega Course Udemy\learning_python\day1to19\web_app_todos/todos.txt"  # it´s a convention that says XXX is a constant
 
 
 def get_todos(filepath=FILEPATH):  # green is default parameter

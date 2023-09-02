@@ -1,5 +1,5 @@
 import streamlit as st
-from learning_python.day1to19 import functions
+import functions
 
 todos = functions.get_todos()
 
@@ -24,4 +24,3 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="", placeholder="Enter a new todo",
               on_change=add_todo, key='new_todo')  # on_change is like a custom function
-

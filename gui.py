@@ -1,10 +1,10 @@
-import functions
+from learning_python.day1to19 import functions
 import PySimpleGUI as sg
 import time
 import os
 
-if not os.path.exists("todos.txt"):
-    with open("todos.txt", "w") as file:
+if not os.path.exists("day1to19/web_app_todos/venv/todos.txt"):
+    with open("day1to19/web_app_todos/venv/todos.txt", "w") as file:
         pass  # syntax requires to have something written there
 # this wat todos.txt file is created, for the 1st use
 
